@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
     if (!mounted) {
       return;
     }
-    await Zendesk.initialize('', '');
+    await Zendesk.initialize('mobile_sdk_client_ae616d4af9d814629b90', '78617a8d53ab5b9b05ad78306f368bf1a2c057cff626ca71');
   }
 
   @override
